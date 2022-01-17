@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IconEditText">
+        <attr name="new_image_rsc" format="reference" />
+        <attr name="new_text" format="string" />
+        <attr name="android:inputType" />
+        <attr name="android:state_enabled" />
+        <attr name="android:hint" />
+        <attr name="style" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="IconTextView">
+        <attr name="tv_image_rsc" format="reference" />
+        <attr name="tv_text" format="string" />
+        <attr name="android:state_enabled" />
+        <attr name="tv_style" format="reference" />
+    </declare-styleable>
+</resources>

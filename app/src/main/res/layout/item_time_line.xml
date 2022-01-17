@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.github.vipulasri.timelineview.TimelineView
+        android:id="@+id/timeline"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:endLineColor="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lineStyle="dash"
+        app:lineWidth="3dp"
+        app:markerSize="@dimen/_30sdp"
+        app:startLineColor="@color/purple_700" />
+
+
+    <!--    <com.github.vipulasri.timelineview.TimelineView-->
+    <!--        android:id="@+id/timeline"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        app:markerSize="20dp"-->
+    <!--        app:lineWidth="3dp"-->
+    <!--        app:startLineColor="@color/colorAccent"-->
+    <!--        app:endLineColor="@color/colorAccent"-->
+    <!--        app:lineStyle="dash"/>-->
+
+
+    <TextView
+        android:id="@+id/tv_text_time_line"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:gravity="center"
+        android:text="Your order was sent to the restaurant"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        app:layout_constraintBottom_toBottomOf="@id/timeline"
+        app:layout_constraintStart_toEndOf="@id/timeline"
+        app:layout_constraintTop_toTopOf="@id/timeline" />
+
+    <TextView
+        android:id="@+id/time_line_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_3sdp"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        app:layout_constraintBottom_toBottomOf="@id/timeline"
+        app:layout_constraintEnd_toEndOf="@id/timeline"
+        app:layout_constraintStart_toStartOf="@id/timeline"
+        app:layout_constraintTop_toTopOf="@id/timeline" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
