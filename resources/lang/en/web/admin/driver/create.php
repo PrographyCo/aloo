@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'main'                  => 'main data for creating driver',
+    'name'                  => 'name',
+    'brandName'             => 'brand name',
+    'password'              => 'password',
+    'password_confirmation' => 'confirm password',
+    'commercialNo'          => 'commercial no.',
+    'city'                  => 'city',
+    'bankNumber'            => 'bank number',
+    'description'           => 'description',
+    'email'                 => 'email',
+    'phone'                 => 'phone',
+    'bank'                  => 'bank',
+    'bankRecipientName'     => 'recipient name',
+    'iban'                  => 'bank iban',
+    'img'                   => 'driver image',
+    'speech'                => 'driver speech',
+    'logo'                  => 'driver logo',
+    'commercialRecord'      => 'commercial record',
+    'submit'                => 'submit',
+    'restaurant_type'       => 'restaurant type',
+    'kitchen_type'          => 'kitchen type',
+];

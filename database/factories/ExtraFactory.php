@@ -1,0 +1,33 @@
+<?php
+
+namespace Database\Factories;
+
+use App\Models\Extra;
+use App\Models\Vendor;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+class ExtraFactory extends Factory
+{
+    /**
+     * The name of the factory's corresponding model.
+     *
+     * @var string
+     */
+    protected $model = Extra::class;
+
+    /**
+     * Define the model's default state.
+     *
+     * @return array
+     */
+    public function definition()
+    {
+        return [
+            'vendor_id' =>  Vendor::inRandomOrder()->where('supported_vendor_id','=',3)->first()->id,
+            'name_en'   =>  $this->faker->text(30),
+            'name_ar'   =>  (new \Faker\Provider\ar_SA\Text(new \Faker\Generator()))->realText(30),
+            'price'     =>  $this->faker->randomFloat(2,0,1000),
+            'calories'  =>  random_int(0,10000),
+        ];
+    }
+}

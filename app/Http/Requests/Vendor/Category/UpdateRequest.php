@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Http\Requests\Vendor\Category;
+
+use Illuminate\Foundation\Http\FormRequest;
+
+class UpdateRequest extends FormRequest
+{
+    public function authorize()
+    {
+        return true;
+    }
+
+    public function rules()
+    {
+        return [
+            'name_ar'              => 'required|string|max:200',
+            'description_ar'       => 'required|string|max:200',
+            'name_en'              => 'required|string|max:200',
+            'description_en'       => 'required|string|max:200',
+        ];
+    }
+}

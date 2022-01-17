@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'main_data'             => 'main data',
+    'legalName'             => 'legal name',
+    'brandName'             => 'brand name',
+    'password'              => 'password',
+    'password_confirmation' => 'confirm password',
+    'commercialNo'          => 'commercial no.',
+    'city'                  => 'city',
+    'minPrice'              => 'main price',
+    'description'           => 'description',
+    'email'                 => 'email',
+    'phone'                 => 'phone',
+    'supported_vendor'      => 'supported vendor',
+    'bank'                  => 'bank',
+    'bankRecipientName'     => 'recipient name',
+    'bankIBAN'              => 'bank IBAN',
+    'image'                 => 'vendor image',
+    'speech'                => 'vendor speech',
+    'logo'                  => 'vendor logo',
+    'commercialRecord'      => 'commercial record',
+    'submit'                => 'submit',
+    'restaurant_type'       => 'restaurant type',
+    'kitchen_type'          => 'kitchen type',
+];

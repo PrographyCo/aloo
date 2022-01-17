@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Al-Jazeera-Arabic-Regular ";
+    src: url(../../fonts/Al-Jazeera-Arabic-Regular.ttf);
+    /*src: url(../fonts/Al-Jazeera-Arabic-Bold.ttf);*/
+}
+body {
+    direction: rtl;
+    text-align: right;
+    /*font-family: "Ge Flow";*/
+    font-family: "Al-Jazeera-Arabic-Regular ";
+    /*font-family: "Al-Jazeera-Arabic-Bold ";*/
+    font-weight: normal;
+
+}
+.section-1 p {
+    font-size: 20px;
+}
+.circle1{
+    right: auto;
+    left: 27px;
+}
+.circle3{
+    right: auto;
+    left: 15px;
+}
+/*.section-2 .section-text p ,.section-2 .section-text p{*/
+/*    padding-right: 0;*/
+/*    padding-left: 14%;*/
+
+/*}*/
+
+.section-2 .section2-img-background{
+
+
+    bottom: -2rem;
+    right: auto;
+    left: 0;
+    transform: rotate(0deg);
+    max-width: 20rem;
+}
+
+
+/*form*/
+
+::placeholder{
+    direction: rtl;
+    text-align: right;
+}
+.styled-file-select span {
+    left: 0;
+    right: auto;
+
+}
+/*end form*/
+
+/*footer*/
+footer ul {
+    /*padding-left:0 ;*/
+    padding-right: 0;
+}
+
+footer .aloo-footer ul li a {
+    margin-right: 0;
+    margin-left: 15px;
+}
+/*end footer*/
+
+/*responsive*/
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 32px;
+}
+h4{
+    font-size: 27px;}
+
+section-1 p{
+    font-size: 20px;
+}
+@media(min-width: 1640px) {
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h4{
+        font-size: 33px;
+    }
+    .section-1 p {
+        font-size: 26px;
+    }
+
+}
+
+@media(max-width: 992px) {
+    .section-1 p {
+        font-size: 13px;
+    }
+
+
+}
+@media (max-width: 576px) {
+    h1{
+        font-size: 30px;
+
+    }
+    h2{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .section-1 p {
+        font-size: 16px;
+    }
+}
