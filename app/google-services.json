@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "581669989615",
+    "firebase_url": "https://aloo-5d9ab-default-rtdb.firebaseio.com",
+    "project_id": "aloo-5d9ab",
+    "storage_bucket": "aloo-5d9ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581669989615:android:64d8e519ecc69865a27f1a",
+        "android_client_info": {
+          "package_name": "com.prography.sw.aloocustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581669989615-oto4peane5f3cqfh0lp9br9ve64f2kv2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prography.sw.aloocustomer",
+            "certificate_hash": "aa1dccd9d2eb23b804adbb3995a86704408f1303"
+          }
+        },
+        {
+          "client_id": "581669989615-n4qnbvgae47rfacp6fr9b9d9s3e1q2e3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNTAyt-0JbpHiw9_2e5ZfIONaQda056pE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581669989615-n4qnbvgae47rfacp6fr9b9d9s3e1q2e3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "581669989615-594v9u4v0fjgo55o874q0g5ss6ui2jqu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.PrographyHAppH.Aloo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581669989615:android:2e1339a31cd7d848a27f1a",
+        "android_client_info": {
+          "package_name": "com.prography.sw.aloodelevery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581669989615-teai5qlg0uul299vm12ejk67e010auki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prography.sw.aloodelevery",
+            "certificate_hash": "aa1dccd9d2eb23b804adbb3995a86704408f1303"
+          }
+        },
+        {
+          "client_id": "581669989615-n4qnbvgae47rfacp6fr9b9d9s3e1q2e3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNTAyt-0JbpHiw9_2e5ZfIONaQda056pE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581669989615-n4qnbvgae47rfacp6fr9b9d9s3e1q2e3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "581669989615-594v9u4v0fjgo55o874q0g5ss6ui2jqu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.PrographyHAppH.Aloo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
