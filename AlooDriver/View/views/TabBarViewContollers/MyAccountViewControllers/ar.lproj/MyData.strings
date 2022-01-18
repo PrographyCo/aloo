@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "See customer reviews for you"; ObjectID = "7H8-3Z-UC2"; */
+"7H8-3Z-UC2.normalTitle" = "انظر مراجعات العملاء لك";
+
+/* Class = "UILabel"; text = "Number of trips"; ObjectID = "B2t-Wg-EuD"; */
+"B2t-Wg-EuD.text" = "عدد الرحلات";
+
+/* Class = "UILabel"; text = "View by"; ObjectID = "C9h-bk-OV1"; */
+"C9h-bk-OV1.text" = "عرض بواسطة";
+
+/* Class = "UILabel"; text = "The number of hours"; ObjectID = "FiN-FK-fGY"; */
+"FiN-FK-fGY.text" = "عدد الساعات";
+
+/* Class = "UILabel"; text = "130 SR"; ObjectID = "HxY-IQ-adc"; */
+"HxY-IQ-adc.text" = "";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "MRl-uE-UKw"; */
+"MRl-uE-UKw.text" = "";
+
+/* Class = "UIButton"; normalTitle = "View by"; ObjectID = "P8G-eL-Cce"; */
+"P8G-eL-Cce.normalTitle" = "عرض بواسطة";
+
+/* Class = "UILabel"; text = "My Data"; ObjectID = "PAp-cP-15F"; */
+"PAp-cP-15F.text" = "بياناتي";
+
+/* Class = "UILabel"; text = "Application transfer amount for the driver"; ObjectID = "e49-sV-1Wb"; */
+"e49-sV-1Wb.text" = "مبلغ تحويل الطلب للسائق";
+
+/* Class = "UILabel"; text = "130 SR"; ObjectID = "k0d-1i-tKa"; */
+"k0d-1i-tKa.text" = "";
+
+/* Class = "UILabel"; text = "Hany Alkahlout"; ObjectID = "p3Z-7M-DrY"; */
+"p3Z-7M-DrY.text" = "";
+
+/* Class = "UILabel"; text = "Total income"; ObjectID = "uUT-n0-zj2"; */
+"uUT-n0-zj2.text" = "إجمالي الدخل";
+
+/* Class = "UILabel"; text = "8"; ObjectID = "zpN-dQ-cYE"; */
+"zpN-dQ-cYE.text" = "";

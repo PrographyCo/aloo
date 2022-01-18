@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>581669989615-pejlejem5urdvojl47309cpra4vbchcf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.581669989615-pejlejem5urdvojl47309cpra4vbchcf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC4TFRES9mUoDuM4upabCU68jYoqF8HzVA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>581669989615</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.prographyappco.aloodriver</string>
+	<key>PROJECT_ID</key>
+	<string>aloo-5d9ab</string>
+	<key>STORAGE_BUCKET</key>
+	<string>aloo-5d9ab.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:581669989615:ios:5ecd701a54d89104a27f1a</string>
+</dict>
+</plist>

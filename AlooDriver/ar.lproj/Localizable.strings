@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  AlooDriver
+
+  Created by Hany Alkahlout on 19/11/2021.
+  Arabic
+*/
+
+"SR" = "ريال سعودى";
+"with" = "مع";
+"without" = "بدون";
+"drinks" = "مشروبات";
+"extras" = "إضافات";
+"Representative" = "وكيل";
+"now" = "حاليا";
+"The application will be restarted" = "سيتم إعادة تشغيل التطبيق";
+"Ok" = "حسنآ";
+"I do not want" = "لا أرغب";
+"Available" = "متوفرة";
+"Unavailable" = "غير متوفره";
+"item" = "عنصر";
+"Waiting" =  "انتظار";
+"Move to Customer" = "الانتقل إلى العميل";
+"Order Driver Arrived" =  "طلب وصول السائق";
+"Order Deliver" = "تسليم الطلب";
+"Submit Evaluation" = "إرسال التقييم";
+"Customers Service" = "خدمة العملاء";
+"Common Questions" = "الأسئلة الشائعة";
+"About The App" = "حول التطبيق";
+"Terms And Conditions And Privacy Policy" = "الشروط والأحكام وسياسة الخصوصية";
+"App Rating" = "تقييم التطبيق";
+"Do you want to log out?" = "هل ترغب بالخروج؟";
+"Yes" = "نعم";
+"No" = "لا";
+"All" = "الجميع";
+"Day" = "يوم";
+"Week" = "أسبوع";
+"Month" = "شهر";
+"Year" = "عام";
+"Error" = "خطأ";
+"Internet Connection Error" = "خطأ في الاتصال بالإنترنت";
+"Personal Profile" = "الملف الشخصي";
+"Notification" = "تنبيه";
+"My Data" = "بياناتي";
+"Aloo wallet" = "محفظة ألو";
+"Langeuage" = "لغة";
+"Log out" = "تسجيل خروج";
+
+
+
+
+

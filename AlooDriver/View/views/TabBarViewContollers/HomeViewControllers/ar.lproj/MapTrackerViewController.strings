@@ -1,0 +1,36 @@
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "0bb-ei-MwF"; */
+"0bb-ei-MwF.normalTitle" = "يلغي";
+
+/* Class = "UILabel"; text = "Cancelling order"; ObjectID = "6ve-rs-f1z"; */
+"6ve-rs-f1z.text" = "طلب الغاء";
+
+/* Class = "UITextView"; text = "Message Here..."; ObjectID = "7uZ-DW-mms"; */
+"7uZ-DW-mms.text" = "الرسالة هنا ...";
+
+/* Class = "UITextView"; text = "Some Notes"; ObjectID = "9Jc-NA-Nwk"; */
+"9Jc-NA-Nwk.text" = "بعض الملاحظات";
+
+/* Class = "UILabel"; text = "Your review has been submitted"; ObjectID = "F1B-MJ-VSs"; */
+"F1B-MJ-VSs.text" = "تم تقديم رأيك الخاص بك";
+
+/* Class = "UILabel"; text = "Can You Till Us Why You Want To Delete This Order?"; ObjectID = "RtM-05-Rp6"; */
+"RtM-05-Rp6.text" = "هل يمكنك إخبارنا لماذا تريد حذف هذا الطلب؟";
+
+/* Class = "UILabel"; text = "Thanks You"; ObjectID = "T08-Ua-OBW"; */
+"T08-Ua-OBW.text" = "شكرا لك";
+
+/* Class = "UIButton"; normalTitle = "Waiting"; ObjectID = "gns-Gq-OCG"; */
+"gns-Gq-OCG.normalTitle" = "انتظار";
+
+/* Class = "UILabel"; text = "The journey time to the starting place is minutes"; ObjectID = "nb9-Y4-CDc"; */
+"nb9-Y4-CDc.text" = "مدة الرحلة إلى نقطة البداية دقائق";
+
+/* Class = "UILabel"; text = "Name "; ObjectID = "sqU-6R-YDP"; */
+"sqU-6R-YDP.text" = "اسم";
+
+/* Class = "UILabel"; text = "Customer evaluation"; ObjectID = "wSr-g3-jKQ"; */
+"wSr-g3-jKQ.text" = "تقييم العملاء";
+
+/* Class = "UILabel"; text = "driver name"; ObjectID = "z7j-2l-Mc5"; */
+"z7j-2l-Mc5.text" = "اسم السائق";

@@ -1,0 +1,54 @@
+/* 
+  Localizable.strings
+  AlooDriver
+
+  Created by Hany Alkahlout on 19/11/2021.
+  English
+*/
+
+
+"SR" = "SR";
+"with" = "with";
+"without" = "without";
+"drinks" = "drinks";
+"extras" = "extras";
+"Representative" = "Representative";
+"now" = "now";
+"The application will be restarted" = "The application will be restarted";
+"Ok" = "Ok";
+"I do not want" = "I do not want";
+"Available" = "Available";
+"Unavailable" = "Unavailable";
+"item" = "item";
+"Waiting" = "Waiting";
+"Move to Customer" = "Move to Customer";
+"Order Driver Arrived" = "Order Driver Arrived";
+"Order Deliver" = "Order Deliver";
+"Submit Evaluation" = "Submit Evaluation";
+"Customers Service" = "Customers Service" ;
+"Common Questions" = "Common Questions" ;
+"About The App" = "About The App" ;
+"Terms And Conditions And Privacy Policy" = "Terms And Conditions And Privacy Policy" ;
+"App Rating" = "App Rating" ;
+"Do you want to log out?" = "Do you want to log out?";
+"Yes" = "Yes";
+"No" = "No";
+"All" = "All";
+"Day" = "Day";
+"Week" = "Week";
+"Month" = "Month";
+"Year" = "Year";
+"Error" = "Error";
+"Internet Connection Error" = "Internet Connection Error";
+"Personal Profile" = "Personal Profile";
+"Notification" = "Notification";
+"My Data" = "My Data";
+"Aloo wallet" = "Aloo wallet";
+"Langeuage" = "Langeuage";
+"Log out" = "Log out";
+
+
+
+
+
+
