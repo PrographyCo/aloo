@@ -1,0 +1,264 @@
+<resources>
+    <string name="app_name" translatable="false">AlooProduct</string>
+    <string name="TOKEN" translatable="false">token</string>
+    <string name="FIRST_TIME" translatable="false">first_time</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="question">Question</string>
+    <string name="profile">Profile</string>
+    <string name="start_text">"We have collected for you most of the applications you need in one place, including pharmacies, restaurants, supermarkets and many more "</string>
+    <string name="start_your_serves">Start the service that suits you </string>
+    <string name="tv_cat_1">Restaurants</string>
+    <string name="tv_cat_1_desc">We provide you with most of the different  restaurants  and cafes  according to your taste</string>
+    <string name="orders">Orders</string>
+
+    <string name="trial_text1">your order was delivered</string>
+    <string name="trial_text2">thank you</string>
+    <string name="trial_btn">track order</string>
+    <string name="tv_cat_2">Supermarket</string>
+    <string name="tv_cat_2_desc">You can view the products of the supermarket or your supplies with us in the application</string>
+    <string name="tv_cat_3">Pharmacies</string>
+    <string name="tv_cat_3_desc">We provide you with most of the well-known pharmacies that meet your needs</string>
+    <string name="search">search</string>
+    <string name="McDonald">McDonald\'s</string>
+    <string name="servis">American, sandwiches and fast food</string>
+    <string name="time">45  minutes</string>
+    <string name="price">price</string>
+    <string name="minimum">Minimum:</string>
+    <string name="number_of_rating" translatable="false">(20)</string>
+    <string name="calories">Calories </string>
+    <string name="SR">S.R 24</string>
+    <string name="meal_name">Grilled chicken meal</string>
+    <string name="desc">Descreption</string>
+    <string name="desc_text">Contains Gluten, Milk, Sesame Seeds, Soybeans May Contains Eggs, Peanuts, Sulfur Dioxide, Celery, Mustard</string>
+    <string name="add_card">add to cadt</string>
+    <string name="big_price">big \n24 RL</string>
+    <string name="small_price">small \n17 RL</string>
+    <string name="according_to_price">حسب السعر</string>
+    <string name="high_to_low">من الأعلى\n الى الأقل</string>
+    <string name="low_to_high">من الأقل\n الى الأعلى</string>
+    <string name="account">Account</string>
+    <string name="notification">Notification</string>
+    <string name="delivery_addresses">Delivery Addresses</string>
+    <string name="aloo_wallet">Aloo Wallet</string>
+    <string name="favourite">Favourite</string>
+    <string name="language">Language</string>
+    <string name="log_out">Log Out</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="log_out_text">Would you like to log out?</string>
+    <string name="cart">Cart</string>
+    <string name="edit">Edit</string>
+    <string name="contact_address">Contact address</string>
+    <string name="day" translatable="false">delivery day</string>
+    <string name="time_delevary" translatable="false">Delivery time</string>
+    <string name="code" translatable="false">code</string>
+    <string name="order_details">Order details</string>
+    <string name="asking_price">Asking price : </string>
+    <string name="delivery_charge">Delivery Charge : </string>
+    <string name="value_added" translatable="false">Value Added : </string>
+    <string name="number_price">17 RL</string>
+    <string name="totle">Totel</string>
+    <string name="payment_methods" translatable="false">payment methods</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="arabic" translatable="false">عربي</string>
+    <string name="english" translatable="false">English</string>
+    <string name="clients_service">Clients service</string>
+    <string name="common_questions">Common Questions</string>
+    <string name="about_app">About the app</string>
+    <string name="privacy_policy_conditions">Privacy policy and conditions</string>
+    <string name="rate_app">Rate the app</string>
+    <string name="add_photo">Add photo</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="gender">Gender</string>
+    <string name="city">City</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="save">Save</string>
+    <string name="now">Now</string>
+    <string name="notifications">Notifications</string>
+    <string name="item_name">Almarai cheese with cream</string>
+    <string name="privacy_policy">Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy Policy</string>
+    <string name="email_address" translatable="false">support@Aloo.com</string>
+    <string name="contact_number" translatable="false">0555555555</string>
+    <string name="contact_whats">Contact - Whatsapp</string>
+    <string name="linkedin" translatable="false">\@Aloo</string>
+    <string name="answer">Answer</string>
+    <string name="pay_status" translatable="false">Not yet paid</string>
+    <string name="timeDate" translatable="false">25_10 / 12:30</string>
+    <string name="order_status">Order status:</string>
+    <string name="payment_status" translatable="false">Payment status</string>
+    <string name="payment_method" translatable="false">Payment method</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="mcdonalds">Mcdonalds</string>
+    <string name="supermarkets">Supermarkets</string>
+    <string name="pharmacies">Pharmacies</string>
+    <string name="choose_supermarket">Please choose a supermarket</string>
+    <string name="choose_restaurant">Please choose a restaurant</string>
+    <string name="choose_pharmacy">Please choose a pharmacy</string>
+    <string name="sent_delivered_handed" translatable="false">sent delivered handed</string>
+    <string name="The_payment_was_made" translatable="false">The payment was made</string>
+    <string name="order_number">Order number:</string>
+    <string name="address">Address</string>
+    <string name="order_tracking">order tracking</string>
+    <string name="need_help">I need help</string>
+    <string name="specify">Specify</string>
+    <string name="restaurant_type">Restaurant type</string>
+    <string name="language_text">The App will restart</string>
+    <string name="restart">Restart</string>
+    <string name="stay">Stay</string>
+    <string name="title">Home</string>
+    <string name="details">Al-fyrouz towers, Al-mashtal street, Gaza</string>
+    <string name="new_location">Add new location</string>
+    <string name="address_name">Address Name</string>
+    <string name="specify_location">Specify location on map</string>
+    <string name="balance">Balance</string>
+    <string name="balance_text">0 SAR</string>
+    <string name="menu">menu</string>
+    <string name="help">Help</string>
+    <string name="is_login" translatable="false">IS_LOGIN</string>
+    <string name="is_restaurant" translatable="false">IS_RESTAURANT</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="register_now">Register Now</string>
+    <string name="have_account">Don\'t have an account?</string>
+    <string name="login">Login</string>
+    <string name="registration">Service Provider Registration</string>
+    <string name="registration_text">Would you like to register as a Restaurant, Supermarket or Pharmacy please contact us via: \n knowing that working hours from 8–4pm</string>
+    <string name="store_info">Store information</string>
+    <string name="add_list_products">Add store list and products </string>
+    <string name="store_products">Store products</string>
+    <string name="changes_saved">Changes were saved</string>
+    <string name="changes_sent">and sent to the specified team</string>
+    <string name="ok">OK</string>
+    <string name="store_type">Store type</string>
+    <string name="legal_name">Legal Name</string>
+    <string name="trade_name">Trade Name</string>
+    <string name="commercial_no">Commercial Registration No</string>
+    <string name="according_to_commercial">(According to the Commercial Registration)</string>
+    <string name="name_shown_app">(The name to be shown in the app)</string>
+    <string name="store_description">Store Description</string>
+    <string name="minimum_order">Minimum Order</string>
+    <string name="SR_text">SAR</string>
+    <string name="formal_email">Formal Email</string>
+    <string name="delegated_manager_information">Delegated Manager Information</string>
+    <string name="manager_name">Manager Name</string>
+    <string name="manager_position">Manager Position</string>
+    <string name="manager_phone">Manager Phone</string>
+    <string name="manager_email">Manager Email</string>
+    <string name="bank_info">Bank Information</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="bank_iban_no">Bank IBAN Number</string>
+    <string name="beneficiary_name">Beneficiary Name</string>
+    <string name="attach_files_photos">Attach Files and Photos</string>
+    <string name="photo_commercial">Photo from Commercial Registration</string>
+    <string name="photo_logo">Logo with high quality</string>
+    <string name="speech">Speech</string>
+    <string name="file_type" translatable="false">PDF, JPG, PNG</string>
+    <string name="speech_desc">speech that contains bank details of the company or institution signed or stamped   PDF, JPG, PNG</string>
+    <string name="add_products">Add Products</string>
+    <string name="add_sections">Add Sections</string>
+    <string name="add_product">Add Product</string>
+    <string name="add_section">Add Section</string>
+    <string name="add_another_section">Add another section</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="currency">SAR</string>
+    <string name="section_name">Section Name</string>
+    <string name="photo_product">Photo of product with high quality</string>
+    <string name="photo_product_desc">(Please attach photos of the product from all aspects) \n PDF, JPG, PNG</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_brand">Product Brand</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_details">Product Details</string>
+    <string name="section">Section</string>
+    <string name="select_section">Select Section</string>
+    <string name="delete">Delete</string>
+    <string name="product_deleted">The Product was Deleted Successfully </string>
+    <string name="delete_text">Do you want to confirm product deletion?</string>
+    <string name="services">Services</string>
+    <string name="available">available</string>
+    <string name="Unavailable">Un\navailable</string>
+    <string name="meal_number">Number of meals 3</string>
+    <string name="meal_number_text">Number of meals</string>
+    <string name="owner_meal">Sohaib Hassan</string>
+    <string name="order_price">30RL</string>
+    <string name="Confirmation">Confirm</string>
+    <string name="kitchen_classification">Kitchen Classification</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="pharmacy">Pharmacy</string>
+    <string name="supermarket">Supermarket</string>
+    <string name="kitchen_type">Kitchen Type</string>
+    <string name="add_sections_products">Add Sections Products</string>
+    <string name="invalid_password">Password must be > 7 characters</string>
+    <string name="invalid_phone">Invalid Phone</string>
+    <string name="call">Whatsapp\n chat</string>
+    <string name="messages">Call</string>
+    <string name="meals">2 meals</string>
+    <string name="reject">reject</string>
+    <string name="order_processed">The order has been processed</string>
+    <string name="payment_made" translatable="false">The payment was made</string>
+    <string name="order_delivery">order delivery</string>
+    <string name="order_ready">The order is ready and waiting for delivery to the driver</string>
+    <string name="store_Products">Store Products</string>
+
+    <string name="check_internet_connection_text">Check wifi or mobile data</string>
+    <string name="something_went_wrong_text">Something went wrong</string>
+    <string name="order_price_text">"Order Price "</string>
+    <string name="vendor_type" translatable="false">VENDOR_TYPE</string>
+    <string name="time_text">Time to send the order</string>
+    <string name="meal_text">Meals</string>
+    <string name="no_questions_were_found">No Questions were Found</string>
+    <string name="Confirm">Confirm</string>
+    <string name="no_items_were_found">No Items were found</string>
+    <string name="no_items">Number of items</string>
+    <string name="no_orders_were_found">No orders were found</string>
+    <string name="cancelled">canceled</string>
+    <string name="current">current</string>
+    <string name="tell_us_why_cacel">Please tell us why did you choose to cancel the order</string>
+    <string name="submit_evaluation">Submit evaluation</string>
+    <string name="some_notes">some notes</string>
+    <string name="price_lowest" translatable="false">price_lowest</string>
+    <string name="item_count_lowest" translatable="false">item_count_lowest</string>
+    <string name="price_highest" translatable="false">price_highest</string>
+    <string name="item_count_highest" translatable="false">item_count_highest</string>
+    <string name="my_data">My Data</string>
+    <string name="vendor_name">Vendor Name</string>
+    <string name="show_according">Show according</string>
+    <string name="_10" translatable="false">10</string>
+    <string name="rides_no">Rides Number</string>
+    <string name="hours_no">Hours Number</string>
+    <string name="_350">350 SAR</string>
+    <string name="income_avg">Income Average</string>
+    <string name="app_ratio">App Percentage</string>
+    <string name="transfer_amount">Transfer amount</string>
+    <string name="all">all</string>
+    <string name="today">today</string>
+    <string name="week">week</string>
+    <string name="month">month</string>
+    <string name="year">year</string>
+    <string name="no_transactions_were_found">No Transactions were found</string>
+    <string name="wallet_details">Wallet Details</string>
+    <string name="time_date" translatable="false">2020/2/1، PM 30:5</string>
+    <string name="trans_no">trans no</string>
+    <string name="reason">reason</string>
+    <string name="refund">refund</string>
+    <string name="price_number">24 SAR</string>
+    <string name="please_click_available">Please click Available to view all the orders</string>
+    <string name="Choose_section">Choose a section from the list</string>
+    <string name="order_number_text">Order Nomber</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="msg_token_fmt" translatable="false">FCM registration Token: %s</string>
+    <string name="default_notification_channel_name" translatable="false">aloo_app_vendor</string>
+    <string name="help_serves"> How can we help you</string>
+    <string name="technical_support">Technical Support</string>
+    <string name="complaint">Complaint</string>
+    <string name="my_inquiries">My Inquiries?</string>
+    <string name="send_question">Send Question</string>
+    <string name="send">send</string>
+    <string name="sendComplaint">Send Complaint</string>
+    <string name="sendToSupport">Send To Support</string>
+    <string name="sentSuccesfully">Sent Succesfully</string>
+</resources>

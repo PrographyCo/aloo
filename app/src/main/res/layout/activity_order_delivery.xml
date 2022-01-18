@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.OrderDeliveryActivity">
+
+
+    <ImageView
+        android:id="@+id/back_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_28sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:src="@drawable/ic_back_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:src="@drawable/ic_icon_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:text="@string/order_delivery"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_9sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:background="@color/gray_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:src="@drawable/ic_done"
+        app:layout_constraintEnd_toEndOf="@id/view"
+        app:layout_constraintStart_toStartOf="@id/view"
+        app:layout_constraintTop_toTopOf="@id/view" />
+
+    <TextView
+        android:id="@+id/tv_tex1"
+        style="@style/TV.BottomSheet.Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:gravity="center"
+        android:text="@string/order_number"
+        app:layout_constraintEnd_toEndOf="@id/iv_icon"
+        app:layout_constraintStart_toStartOf="@id/iv_icon"
+        app:layout_constraintTop_toBottomOf="@id/iv_icon" />
+
+    <TextView
+        android:id="@+id/tv_tex2"
+        style="@style/TV.BottomSheet.Text2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:gravity="center"
+        android:text="@string/order_ready"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_tex1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        style="@style/BTN"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:text="@string/order_delivery"
+        app:layout_constraintEnd_toEndOf="@id/iv_icon"
+        app:layout_constraintStart_toStartOf="@id/iv_icon"
+        app:layout_constraintTop_toBottomOf="@id/tv_tex2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

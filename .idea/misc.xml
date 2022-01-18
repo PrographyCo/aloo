@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/StudioProjects/AlooProduct/app/src/main/res/drawable/ic_iban.xml" value="0.215625" />
+        <entry key="..\:/StudioProjects/AlooProduct/app/src/main/res/drawable/ic_image_start_activity.xml" value="0.215625" />
+        <entry key="..\:/StudioProjects/AlooProduct/app/src/main/res/drawable/ic_meal_icon_small_red.xml" value="0.215625" />
+        <entry key="..\:/StudioProjects/AlooProduct/app/src/main/res/drawable/ic_upload.xml" value="0.215625" />
+        <entry key="..\:/StudioProjects/AlooProduct/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/StudioProjects/AlooProduct/app/src/main/res/layout/activity_questions.xml" value="0.25301204819277107" />
+        <entry key="..\:/StudioProjects/AlooProduct/app/src/main/res/layout/activity_registration.xml" value="0.16802536231884058" />
+        <entry key="..\:/StudioProjects/AlooProduct/app/src/main/res/layout/activity_store_info.xml" value="0.24240506329113923" />
+        <entry key="..\:/StudioProjects/AlooProduct/app/src/main/res/layout/bottom_sheet_list_radio.xml" value="0.12545289855072464" />
+        <entry key="..\:/StudioProjects/AlooProduct/app/src/main/res/layout/bottom_sheet_list_text.xml" value="0.16485507246376813" />
+        <entry key="..\:/StudioProjects/AlooProduct/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/drawable-v24/ic_car.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/drawable/ic_call.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/drawable/ic_car.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/drawable/ic_dollar.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/drawable/ic_messages.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/drawable/ic_sad_face.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/drawable/oval_100_gray.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/drawable/oval_100_red.xml" value="0.38256410256410256" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/drawable/oval_100_red_2.xml" value="0.38256410256410256" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/drawable/rounded_30_green.xml" value="0.262037037037037" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/drawable/rounded_30_trans_line_red.xml" value="0.38256410256410256" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_about_app.xml" value="0.15052083333333333" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_add_lists_products.xml" value="0.22037037037037038" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_add_product.xml" value="0.15052083333333333" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_add_section.xml" value="0.15052083333333333" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_cart.xml" value="0.1" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_clients_service.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_list_orders.xml" value="0.136" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_login.xml" value="0.11822916666666666" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_meal_details.xml" value="0.1" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_my_data.xml" value="0.4" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_my_inquiries.xml" value="0.2453125" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_my_orders.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_my_question.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_my_technical_support.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_notification.xml" value="0.1" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_order_delivery.xml" value="0.2" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_order_details.xml" value="0.2" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_orderdelivery.xml" value="0.2453125" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_pharmacy.xml" value="0.152" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_pharmacy_page.xml" value="0.2" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_preparing_order.xml" value="0.2" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_product_details.xml" value="0.1" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_questions.xml" value="0.1421875" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_resturant_page.xml" value="0.1" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_resturants.xml" value="0.1" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_start.xml" value="0.128" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_store_info.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_store_products.xml" value="0.2" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_store_products_resturant.xml" value="0.2" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_supermarket.xml" value="0.1" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/activity_supermarket_page.xml" value="0.1" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/bottom_sheet_cancel.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/bottom_sheet_card_list.xml" value="0.2453125" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/bottom_sheet_done.xml" value="0.2453125" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/bottom_sheet_list_img_text.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/bottom_sheet_list_radio.xml" value="0.2453125" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/bottom_sheet_list_text.xml" value="0.2453125" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/bottom_sheet_two_list.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/dialog_text_button.xml" value="0.2453125" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/dialog_text_two_buttons.xml" value="0.2453125" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/fragment_account.xml" value="0.2453125" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/fragment_home.xml" value="0.152" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/fragment_home_res_phar.xml" value="0.176" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_cart.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_check_box.xml" value="0.2453125" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_home_resturant.xml" value="0.264" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_home_super_pharm.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_meal_detels_recycler.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_notification.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_order_details.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_orders_list.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_preparing_order.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_question.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_resturant_page_recycler.xml" value="0.264" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_resturants_recycler.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_section.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_stor_resturant.xml" value="0.176" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_supermarket.xml" value="0.259375" />
+        <entry key="..\:/Users/SohaibHassan/AndroidStudioProjects/AlooProduct/app/src/main/res/layout/item_supermarket_page.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

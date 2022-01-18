@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_80sdp"
+    android:paddingBottom="@dimen/_60sdp">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_tex1"
+        style="@style/TV.BottomSheet.Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:gravity="center"
+        android:text="@string/trial_text1" />
+
+    <TextView
+        android:id="@+id/tv_tex2"
+        style="@style/TV.BottomSheet.Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:gravity="center"
+        android:text="@string/trial_text2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        style="@style/BTN"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:text="@string/trial_btn" />
+</LinearLayout>

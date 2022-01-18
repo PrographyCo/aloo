@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activity.OrderDetailsActivity">
+
+
+        <ImageView
+            android:id="@+id/back_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_28sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:src="@drawable/ic_back_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:src="@drawable/ic_icon_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/contener"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo">
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:text="@string/order_number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_2sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:background="@color/gray_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title" />
+
+
+            <TextView
+                android:id="@+id/tv_Name_order_owner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/owner_meal"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/view" />
+
+            <ImageView
+                android:id="@+id/im_messages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_30sdp"
+                android:src="@drawable/ic_messages"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tv_Name_order_owner" />
+
+
+            <TextView
+                android:id="@+id/tv_messages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center"
+                android:text="@string/call"
+                android:textSize="@dimen/_8sdp"
+                app:layout_constraintEnd_toEndOf="@id/im_messages"
+                app:layout_constraintStart_toStartOf="@id/im_messages"
+                app:layout_constraintTop_toBottomOf="@id/im_messages" />
+
+            <ImageView
+                android:id="@+id/im_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_25sdp"
+                android:src="@drawable/ic_call"
+                app:layout_constraintBottom_toBottomOf="@id/im_messages"
+                app:layout_constraintEnd_toStartOf="@id/im_messages"
+                app:layout_constraintTop_toTopOf="@id/im_messages" />
+
+            <TextView
+                android:id="@+id/tv_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center"
+                android:text="@string/messages"
+                android:textSize="@dimen/_8sdp"
+                app:layout_constraintEnd_toEndOf="@id/im_call"
+                app:layout_constraintStart_toStartOf="@id/im_call"
+                app:layout_constraintTop_toBottomOf="@id/im_call" />
+
+
+            <LinearLayout
+                android:id="@+id/cont_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="@id/tv_Name_order_owner"
+                app:layout_constraintTop_toTopOf="@+id/cont_2">
+
+                <TextView
+                    android:id="@+id/tv_tiem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="@string/time_text"
+                    android:textColor="@color/purple_700"
+                    android:textSize="@dimen/_13sdp" />
+
+                <TextView
+                    android:id="@+id/tv_order_price_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="@string/order_price_text"
+                    android:textColor="@color/purple_700"
+                    android:textSize="@dimen/_13sdp" />
+
+                <TextView
+                    android:id="@+id/tv_meal_number_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="@string/meal_number_text"
+                    android:textColor="@color/purple_700"
+                    android:textSize="@dimen/_13sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cont_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:gravity="end"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="@id/tv_messages"
+                app:layout_constraintTop_toBottomOf="@id/tv_messages">
+
+                <TextView
+                    android:id="@+id/tv_tine_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="@string/sent_delivered_handed"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:id="@+id/tv_order_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="@string/The_payment_was_made"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:id="@+id/tv_meal_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="@string/meals"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_order_meal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintBottom_toTopOf="@id/btn_confirmation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cont_1"
+                tools:itemCount="2"
+                android:nestedScrollingEnabled="false"
+                tools:listitem="@layout/item_order_details" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_confirmation"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:background="@drawable/rounded_30_red_gradient"
+                android:text="@string/confirmation"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/btn_reject"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rv_order_meal" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_reject"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_25sdp"
+                android:background="@drawable/rounded_30_trans_line_red"
+                android:text="@string/reject"
+                android:textColor="@color/purple_700"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_confirmation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/btn_confirmation"
+                app:layout_constraintTop_toTopOf="@+id/btn_confirmation" />
+
+            <ProgressBar
+                android:id="@+id/loadingConfirm"
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_30sdp"
+                android:indeterminateTint="@color/text_color_red"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rv_order_meal" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ProgressBar
+            android:id="@+id/loading"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_30sdp"
+            android:indeterminateTint="@color/text_color_red"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

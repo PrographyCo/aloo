@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lo_available"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_30sdp"
+    android:paddingBottom="@dimen/_60sdp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_sad_face" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20sdp"
+        android:fontFamily="@font/tajawal_500"
+        android:gravity="center"
+        android:text="@string/tell_us_why_cacel"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/_16sdp" />
+
+    <com.prography.sw.alooproduct.custom.IconEditText
+        android:id="@+id/et_some_notes"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:background="@android:color/transparent"
+        android:hint="@string/some_notes"
+        android:inputType="text"
+        android:state_enabled="true"
+        app:new_image_rsc="@drawable/ic_name"
+        app:style="@style/ET.Style" />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:indeterminateTint="@color/text_color_red"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        style="@style/BTN"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:text="@string/submit_evaluation"
+        android:textAllCaps="false" />
+
+</LinearLayout>

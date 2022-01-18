@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/rounded_30_white"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_50sdp"
+    android:paddingBottom="@dimen/_40sdp">
+
+    <TextView
+        android:id="@+id/tv_tex1"
+        style="@style/TV.BottomSheet.Text1"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trial_text1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        style="@style/BTN"
+        android:layout_width="wrap_content"
+        android:paddingEnd="@dimen/_30sdp"
+        android:paddingStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:text="@string/trial_btn" />
+</LinearLayout>

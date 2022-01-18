@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginEnd="@dimen/_15sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/et_section_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/rounded_15_gray_lined_gray"
+        android:fontFamily="@font/tajawal_400"
+        android:gravity="start|center_vertical"
+        android:paddingStart="@dimen/_25sdp"
+        android:paddingEnd="@dimen/_25sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        android:hint="@string/section_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:elevation="@dimen/_5sdp"
+        app:layout_constraintBottom_toTopOf="@id/et_text"
+        app:layout_constraintStart_toStartOf="@id/et_text"
+        app:layout_constraintTop_toTopOf="@id/et_text">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_bg_no" />
+
+        <TextView
+            android:id="@+id/tv_no"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tajawal_400"
+            android:gravity="center"
+            android:text="@string/_1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/resturant_image"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:src="@drawable/img"
+        android:translationZ="@dimen/_8sdp"
+        app:civ_border_color="#FFf"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_margin="@dimen/_20sdp"
+        android:rotationY="-2"
+        android:translationZ="@dimen/_2sdp"
+        app:cardCornerRadius="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/red_light">
+
+            <TextView
+                android:id="@+id/tv_resturant_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_67sdp"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:text="@string/McDonald"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_resturant_servis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="@string/servis"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/_9sdp"
+                app:layout_constraintStart_toStartOf="@id/tv_resturant_name"
+                app:layout_constraintTop_toBottomOf="@id/tv_resturant_name" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/tv_resturant_name">
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="61dp"
+                    android:layout_height="13dp"
+                    android:text="@string/time"
+                    android:textSize="@dimen/_9sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:background="@color/gray_line"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/time"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/fee_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:text="@string/price"
+                    android:textSize="@dimen/_9sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/view1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:background="@color/gray_line"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/fee_price"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/minimum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:text="@string/minimum"
+                    android:textSize="@dimen/_9sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/view2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <RatingBar
+                android:id="@+id/resturant_rating"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isIndicator="true"
+                android:numStars="3"
+                android:stepSize="0.1"
+                app:layout_constraintBottom_toBottomOf="@id/number_reate"
+                app:layout_constraintEnd_toStartOf="@id/number_reate"
+                app:layout_constraintTop_toTopOf="@id/number_reate" />
+
+            <TextView
+                android:id="@+id/number_reate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_11sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:text="@string/number_of_rating"
+                android:textSize="@dimen/_9sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

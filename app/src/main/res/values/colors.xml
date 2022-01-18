@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#C55859</color>
+    <color name="purple_500">#901C1D</color>
+    <color name="purple_700">#901C1D</color>
+    <color name="teal_200">#FFC107</color>
+    <color name="teal_700">#FF9800</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="rate">#FFC107</color>
+    <color name="botton_background_red_1">#C55859</color>
+    <color name="botton_background_red_2">#901C1D</color>
+    <color name="botton_background_gray_1">#ECE9E6</color>
+    <color name="botton_background_gray_2">#FFFFFF</color>
+    <color name="text_color_red">#901C1D</color>
+    <color name="text_color_dark_gray">#283845</color>
+    <color name="et_color_background">#32A4A8</color>
+    <color name="gray_line">#E4E4E3</color>
+    <color name="text_color_dark_light">#73283845</color>
+    <color name="text_gray">#283845</color>
+    <color name="red_light">#FFFCFC</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="green">#4CAF50</color>
+</resources>
