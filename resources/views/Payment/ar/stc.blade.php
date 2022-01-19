@@ -73,6 +73,5 @@
 <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('js/home/javascript.js') }}"></script>
 
-@include('themes.home.en-footer')
 </body>
 </html>
