@@ -69,7 +69,7 @@ class Handler extends ExceptionHandler
      */
     protected function invalidJson($request, ValidationException $exception)
     {
-        return APIHelper::jsonRender('message: '.$exception->getMessage(),[],$exception->status,[],$exception->errors());
+        return APIHelper::jsonRender('message: '.collect($exception->errors())->first()[0],[],$exception->status,[],$exception->errors());
     }
 
     public function render($request, Throwable $e)

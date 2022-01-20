@@ -148,7 +148,7 @@ class APIHelper
     }
     public static function sendVerification($for, $user)
     {
-        $code = (env('APP_ENV')!=='testing'&&env('APP_ENV')!=='local')?\Str::random(4):'1234';
+        $code = (env('APP_ENV')!=='testing'&&env('APP_ENV')!=='local')?random_int(1000,9999):'1234';
         $verify = new Verification([
             'user_id'   =>  $user->id,
             'user_type' =>  strtolower(class_basename($user)),
