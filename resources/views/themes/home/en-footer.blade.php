@@ -1,4 +1,4 @@
-<footer class="bg-primary pt-5">
+<footer class="bg-primary pt-5 d-none d-md-block">
     <div class="container">
         <div class="main-footer pt-md-4">
 
