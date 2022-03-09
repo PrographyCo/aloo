@@ -21,7 +21,8 @@ class PackagesController extends \App\Http\Controllers\Controller
                 'min'   =>  $package->price - $request->user()->wallet->amount
             ];
             return APIHelper::error('NoMoney', [
-                'url' => route('payment', ['lang' => Controller::$lang, 'token' => urlencode(EncDecHelper::enc(json_encode($data)))])
+                'url' => route('payment', ['lang' => Controller::$lang, 'token' => urlencode(EncDecHelper::enc(json_encode($data)))]),
+                'stc' => route('payment.stc',['lang'=>Controller::$lang,'token'=>urlencode(EncDecHelper::enc(json_encode($data)))])
             ],[],[],499);
         }
 

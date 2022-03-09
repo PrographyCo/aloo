@@ -8,7 +8,7 @@ class ARBHelper
     const ARB_PAYMENT_ENDPOINT = 'https://securepayments.alrajhibank.com.sa/pg/paymentpage.htm?PaymentID=';
 
     const ARB_MERCHANT_HOSTED_ENDPOINT_TESTING = 'https://securepayments.alrajhibank.com.sa/pg/payment/tranportal.htm';
-    const ARB_MERCHANT_HOSTED_ENDPOINT_PRODUCTION = 'https://digitalpayments.alrajhibank.com.sa/pg/payment/hosted.htm';
+    const ARB_MERCHANT_HOSTED_ENDPOINT_PRODUCTION = 'https://digitalpayments.alrajhibank.com.sa/pg/payment/tranportal.htm';
 
     const ARB_SUCCESS_STATUS = 'CAPTURED';
     const Tranportal_ID = "95P2Gi4Ao5pxdNO";

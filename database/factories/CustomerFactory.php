@@ -63,8 +63,7 @@ class CustomerFactory extends Factory
         $data['city_id'] = City::inRandomOrder()->first()->id;
         $data['email_verified_at'] = now();
         $data['phone_verified_at'] = now();
-	$data['phone_type'] = 
-$this->faker->randomElement(['android','ios']);
+        $data['phone_type'] = $this->faker->randomElement(['android','ios']);
         return $data;
     }
 
